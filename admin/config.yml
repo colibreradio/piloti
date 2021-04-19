@@ -1,7 +1,7 @@
 backend:
  name: github
- branch: NewProduction
- repo: colibreradio/colibreradiotest
+ branch: main
+ repo: colibreradio/piloti
 
 media_folder: "images/uploads"
 
