@@ -158,7 +158,7 @@ nav .nav-cols {
 
 .section-up {
   width: 550px;
-  height: 50vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -238,7 +238,7 @@ nav .nav-cols {
   
   .section-up {
     width: 100%;
-    height: 55vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -35,7 +35,7 @@ const navSlide = () => {
   });
 };
 
-navSlide();
+//navSlide();
 
 const navTransform = () => {
   // Get the navbar
