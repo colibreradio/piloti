@@ -1,0 +1,26 @@
+backend:
+ name: github
+ branch: NewProduction
+ repo: colibreradio/colibreradiotest
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "website-settings"
+    label: "Website Settings"
+    files:
+      - label: "Website settings"
+        name: "site"
+        file: "_data/site.yml"
+        fields:
+         - label: "Main Description"
+           name: "maindesc"
+           width: "string"
+         - label: "Banner"
+           name: "banner"
+           width: "string"
+           required: false
+         - label: "Browser Compatibility Text"
+           name: "browsercompatibility"
+           width: "string"
+           required: false
