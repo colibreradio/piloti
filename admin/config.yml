@@ -13,14 +13,14 @@ collections:
         name: "site"
         file: "_data/site.yml"
         fields:
-         - label: "Main Description"
-           name: "maindesc"
+         - label: "FirstTitle"
+           name: "FirstTitle"
            width: "string"
-         - label: "Banner"
-           name: "banner"
+         - label: "SecondTitle"
+           name: "SecondTitle"
            width: "string"
            required: false
-         - label: "Browser Compatibility Text"
-           name: "browsercompatibility"
+         - label: "MainText"
+           name: "MainText"
            width: "string"
            required: false
