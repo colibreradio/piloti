@@ -23,13 +23,13 @@ collections:
            width: "string"
            required: false
            widget: "markdown"
-         - label: "MainText"
+         - label: "MainText" 
            name: "MainText"
            width: "string"
            required: false
            widget: "markdown"
 
-    - name: "post" # Used in routes, e.g., /admin/collections/blog
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
