@@ -16,12 +16,15 @@ collections:
          - label: "FirstTitle"
            name: "FirstTitle"
            width: "string"
+           required: false
            widget: "markdown"
          - label: "SecondTitle"
            name: "SecondTitle"
            width: "string"
            required: false
+           widget: "markdown"
          - label: "MainText"
            name: "MainText"
            width: "string"
            required: false
+           widget: "markdown"
