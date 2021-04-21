@@ -16,22 +16,26 @@
     </div>
 </section>
 <!-- posts Section -->
-<!-- <section id="posts" class="section">
+<section id="posts" class="section">
     <div class="container2">
-        
-        <div> 
+
+        <div class="flextiles">
 
             {% for post in site.posts %}
             {% assign count = count | plus:1 %}
-            
-            <h2>{{ post.title }}</h2>
 
-            {% if count == 3 %}{% break %}
-            {% endif %}
+            <div class="tile">
+                <h2>{{ post.title }}</h2>
+
+                <p>{{ post.excerpt }}</p>
+            </div>
+
+            <!-- {% if count == 3 %}{% break %}
+            {% endif %} -->
 
             {% endfor %}
-            
+
         </div>
 
     </div>
-</section> -->
+</section>

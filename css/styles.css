@@ -605,3 +605,15 @@ textarea:focus {
   width: 100%;
   position: absolute;
 }
+
+.flextiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tile {
+  border: 1px solid black;
+  padding: 1em;
+}
