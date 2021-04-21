@@ -9,11 +9,23 @@
         <p>{{site.data.site.MainText}}</p>
     </div>
 </section>
-<!-- chat Section -->
-<!-- <section id="chat" class="section">
+<!-- posts Section -->
+<!-- <section id="posts" class="section">
     <div class="container2">
-        <h3>Chat Room</h3>
-        <iframe src="https://minnit.chat/CoLibreChat?embed&nickname=" class="shadow mb-4 bg-white"
-            style="border:0;width:90%;height:500px;" allowTransparency="true"></iframe>
+        
+        <div> 
+
+            {% for post in site.posts %}
+            {% assign count = count | plus:1 %}
+            
+            <h2>{{ post.title }}</h2>
+
+            {% if count == 3 %}{% break %}
+            {% endif %}
+
+            {% endfor %}
+            
+        </div>
+
     </div>
 </section> -->
