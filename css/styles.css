@@ -307,9 +307,9 @@ nav .nav-cols {
     font-size: 2rem !important;
   }
 
-  #showcase h2 {
+  /* #showcase h2 {
     font-size: 1.4rem !important;
-  }
+  } */
 }
 
 @media screen and (max-height: 580px) {
@@ -317,9 +317,9 @@ nav .nav-cols {
     font-size: 2rem !important;
   }
 
-  #showcase h2 {
+  /* #showcase h2 {
     font-size: 1.4rem !important;
-  }
+  } */
 
   #showcase p.lead {
     display: none;
@@ -357,9 +357,9 @@ nav .nav-cols {
   margin-bottom: 0;
 }
 
-#showcase h2 {
+/* #showcase h2 {
   font-size: 1.8rem;
-}
+} */
 
 /* Footer */
 footer {
