@@ -620,4 +620,12 @@ textarea:focus {
 .tile {
   border: 1px solid black;
   padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+.tile > a {
+  align-self: flex-end;
 }
