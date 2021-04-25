@@ -626,6 +626,20 @@ textarea:focus {
   width: 550px;
 }
 
-.tile > a {
+.tileup {
+  flex: 1;
+}
+
+.tileup > h2 {
+margin-bottom: 0;
+}
+
+.tiledown {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+}
+
+.tiledown > a {
   align-self: flex-end;
 }
