@@ -14,7 +14,7 @@
 :root {
   --primary-color: #231f20;
   --primary-color-hover: #f4f4f4;
-  --secondary-color: #ed1b24;
+  --secondary-color: #feadc7;
   --secondary-color-hover: #f4f4f4;
   --light-color: #fff;
   --footer-color: #e6e3e3;
@@ -59,13 +59,12 @@ a {
   transition: /* border-bottom 0.3s cubic-bezier(0.215, 0.61, 0.355, 1), */ color
       0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
     transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-    color: #ff0000;
+  color: #ff5b66;
 }
 
 a:hover {
   display: inline-block;
   transform: scale(1.1);
-  color: var(--primary-color);
   /* border-bottom: 1px solid var(--secondary-color); */
 }
 
@@ -204,7 +203,7 @@ nav .nav-cols {
     align-items: center;
     text-align: left;
     font-size: 14px;
-    width: 100%;    
+    width: 100%;
   }
 
   .nav-links {
@@ -218,7 +217,7 @@ nav .nav-cols {
     align-items: center;
     width: 50%;
     transform: translateX(100%);
-    transition: transform 0.5s ease-in;   
+    transition: transform 0.5s ease-in;
   }
 
   .nav-links li {
@@ -346,8 +345,7 @@ nav .nav-cols {
   margin: 0;
   padding: 0;
   padding-bottom: 3em;
-  background: 
-    url("../assets/img/pilotibg.PNG") repeat center;
+  background: url("../assets/img/bg.PNG") repeat center;
   width: 100%;
   /* height: 100vh; */
 }
@@ -565,7 +563,7 @@ textarea:focus {
   border: none;
   font-weight: bold;
   background-color: var(--secondary-color);
-  color: var(--light-color);
+  color: var(--primary-color);
   box-shadow: none;
   font-family: "Comfortaa", Arial, Helvetica, sans-serif;
   transition: background-color 0.45s cubic-bezier(0.215, 0.61, 0.355, 1),
@@ -628,10 +626,6 @@ textarea:focus {
 
 .tileup {
   flex: 1;
-}
-
-.tileup > h2 {
-margin-bottom: 0;
 }
 
 .tiledown {
