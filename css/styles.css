@@ -64,7 +64,7 @@ a {
 
 a:hover {
   display: inline-block;
-  transform: scale(1.1);
+  transform: scale(1.025);
   /* border-bottom: 1px solid var(--secondary-color); */
 }
 
@@ -206,7 +206,7 @@ nav .nav-cols {
     width: 100%;
   }
 
-  .nav-links {
+  /* .nav-links {
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -218,11 +218,11 @@ nav .nav-cols {
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-  }
+  } */
 
-  .nav-links li {
+  /* .nav-links li {
     opacity: 0;
-  }
+  } */
 
   .burger {
     display: inline;
@@ -306,9 +306,10 @@ nav .nav-cols {
     font-size: 2rem !important;
   }
 
-  /* #showcase h2 {
+  #showcase h2 {
     font-size: 1.4rem !important;
-  } */
+    padding-top: 1em;
+  }
 }
 
 @media screen and (max-height: 580px) {
@@ -636,4 +637,9 @@ textarea:focus {
 
 .tiledown > a {
   align-self: flex-end;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
 }
